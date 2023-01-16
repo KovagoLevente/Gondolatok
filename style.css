@@ -73,3 +73,19 @@ h1{
               0 16px 16px rgba(0,0,0,0.10);
     color: #00ADB5;;
 }
+header{
+    
+        
+        background-color: #395B64;
+        animation-name: example;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+    
+      @keyframes example {
+        0%   {background-color: #395B64;}
+        
+        100% {background-color: #EEEEEE;}
+      
+}
